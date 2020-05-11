@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">एग्रो-कनेक्ट</string>
+    <string name="bol">जय जवान, जय किसान</string>
+    <string name="signin">साइन इन करें</string>
+    <string name="signup">साइन अप करें</string>
+    <string name="signupNow">खाता नहीं है? नई खाता खोलें</string>
+    <string name="signinNow">पहले से ही एक खाता है? लग इन करें</string>
+    <string name="name">आपका नाम</string>
+    <string name="mobileNo">मोबाइल नंबर</string>
+    <string name="email">ईमेल</string>
+    <string name="password">पासवर्ड</string>
+
+    <string-array name="country_arrays">
+        <item>देश चुनें</item>
+        <item>भारत</item>
+        <item>नेपाल</item>
+        <item>चीन</item>
+        <item>फ्रांस</item>
+        <item>इटली</item>
+        <item>सिंगापुर</item>
+        <item>ऑस्ट्रेलिया</item>
+    </string-array>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AgroConnect</string>
+    <string name="bol">Jay Jawan Jai Kisaan</string>
+    <string name="signin">SIGN IN</string>
+    <string name="signup">SIGN UP</string>
+    <string name="signupNow">Don\'t Have an Account?  Sign Up</string>
+    <string name="signinNow">Already Have an Account?  Sign in</string>
+    <string name="name">Your Name</string>
+    <string name="mobileNo">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+
+    <string-array name="country_arrays">
+        <item>Choose Country</item>
+        <item>India</item>
+        <item>Nepal</item>
+        <item>China</item>
+        <item>France</item>
+        <item>Italy</item>
+        <item>Singapore</item>
+        <item>Australia</item>
+    </string-array>
+</resources>

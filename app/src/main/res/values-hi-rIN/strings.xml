@@ -4,12 +4,17 @@
     <string name="bol">जय जवान, जय किसान</string>
     <string name="signin">साइन इन करें</string>
     <string name="signup">साइन अप करें</string>
+    <string name="logout">Logout</string>
+    <string name="about_us">About Us</string>
+    <string name="settings">Settings</string>
     <string name="signupNow">खाता नहीं है? नई खाता खोलें</string>
     <string name="signinNow">पहले से ही एक खाता है? लग इन करें</string>
     <string name="name">आपका नाम</string>
     <string name="mobileNo">मोबाइल नंबर</string>
     <string name="email">ईमेल</string>
     <string name="password">पासवर्ड</string>
+    <string name="temp">10°C</string>
+    <string name="city">Jalandhar</string>
 
     <string-array name="country_arrays">
         <item>देश चुनें</item>

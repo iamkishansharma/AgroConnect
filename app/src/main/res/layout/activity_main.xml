@@ -21,6 +21,7 @@
             android:fontFamily="sans-serif"
             android:src="@drawable/farmer_logo"
             android:textColor="#FFFFFF"
+            android:contentDescription="@string/app_name"
             android:textSize="20sp"/>
         <TextView
             android:layout_width="wrap_content"
@@ -61,7 +62,7 @@
             android:background="@drawable/edt_bottom"
             android:hint="@string/password"
             android:inputType="textPassword"
-            android:padding="15dp" />
+            android:padding="15sp" />
 
 
         <Button
@@ -84,7 +85,7 @@
             android:padding="10dp"
             android:text="@string/signupNow"
             android:textAllCaps="true"
-            android:textSize="13dp"
+            android:textSize="13sp"
             android:textStyle="bold"
             android:textColor="#FAD0E1"
             android:fontFamily="sans-serif"/>

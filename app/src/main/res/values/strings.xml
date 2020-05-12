@@ -3,12 +3,17 @@
     <string name="bol">Jay Jawan Jai Kisaan</string>
     <string name="signin">SIGN IN</string>
     <string name="signup">SIGN UP</string>
+    <string name="logout">Logout</string>
+    <string name="about_us">About Us</string>
+    <string name="settings">Settings</string>
     <string name="signupNow">Don\'t Have an Account?  Sign Up</string>
     <string name="signinNow">Already Have an Account?  Sign in</string>
     <string name="name">Your Name</string>
     <string name="mobileNo">Mobile Number</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="temp">10°C</string>
+    <string name="city">Jalandhar</string>
 
     <string-array name="country_arrays">
         <item>Choose Country</item>

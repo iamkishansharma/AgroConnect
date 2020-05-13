@@ -22,7 +22,7 @@
             android:id="@+id/videoCall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg"
+            android:background="@drawable/buttonbg"
             android:text="@string/vcall_text"
             android:textColor="#fff"
             android:foreground="?android:attr/selectableItemBackground"/>
@@ -32,7 +32,7 @@
             android:layout_below="@id/videoCall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg"
+            android:background="@drawable/buttonbg"
             android:text="@string/call_text"
             android:textColor="#fff"
             android:foreground="?android:attr/selectableItemBackground"/>
@@ -42,7 +42,7 @@
             android:layout_below="@+id/phoneCall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/bg"
+            android:background="@drawable/buttonbg"
             android:text="@string/chat_text"
             android:textColor="#fff"
             android:foreground="?android:attr/selectableItemBackground"/>

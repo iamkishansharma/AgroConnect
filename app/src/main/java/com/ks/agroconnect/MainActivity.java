@@ -41,15 +41,12 @@ public class MainActivity extends AppCompatActivity {
         pass = findViewById(R.id.login_password);
         btnLogin = findViewById(R.id.login_btn);
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
 
         //Progress Dialog Created
         AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
         builder.setCancelable(false); // if you want user to wait for some process to finish,
         builder.setView(R.layout.loading_dialog);
         final AlertDialog dialog = builder.create();
-
 
 
         btnLogin.setOnClickListener(new View.OnClickListener() {
@@ -59,11 +56,11 @@ public class MainActivity extends AppCompatActivity {
                 String mPass = pass.getText().toString().trim();
 
                 //Checking valid input information
-                if (TextUtils.isEmpty(mEmail)){
+                if (TextUtils.isEmpty(mEmail)) {
                     email.setError("Required Field...");
                     return;
                 }
-                if(TextUtils.isEmpty(mPass)){
+                if (TextUtils.isEmpty(mPass)) {
                     pass.setError("Required Field...");
                     return;
                 }
@@ -72,7 +69,7 @@ public class MainActivity extends AppCompatActivity {
 
                 String e = mSharedPreferences.getString("email", null);
                 String p = mSharedPreferences.getString("password", null);
-                if(mEmail.equals(e) && mPass.equals(p)){
+                if (mEmail.equals(e) && mPass.equals(p)) {
 
                     dialog.show();
                     new Handler().postDelayed(new Runnable() {
@@ -82,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }, 1000);
                     //startActivity(new Intent(MainActivity.this, HomeActivity.class));
-                }else {
+                } else {
                     Toast.makeText(MainActivity.this, "Error! TRY AGAIN", Toast.LENGTH_LONG).show();
                 }
             }
@@ -97,28 +94,5 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
-            case R.id.logout_menu:
-                Toast.makeText(MainActivity.this, item.getTitle().toString(),Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.about_menu:
-                Toast.makeText(MainActivity.this, item.getTitle().toString(), Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.setting_menu:
-                Toast.makeText(MainActivity.this, item.getTitle().toString(),Toast.LENGTH_SHORT).show();
-                return true;
-            default: super.onOptionsItemSelected(item);
-        }
-        return false;
     }
 }

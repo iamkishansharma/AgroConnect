@@ -4,9 +4,6 @@
     <string name="bol">जय जवान, जय किसान</string>
     <string name="signin">साइन इन करें</string>
     <string name="signup">साइन अप करें</string>
-    <string name="logout">Logout</string>
-    <string name="about_us">About Us</string>
-    <string name="settings">Settings</string>
     <string name="signupNow">खाता नहीं है? नई खाता खोलें</string>
     <string name="signinNow">पहले से ही एक खाता है? लग इन करें</string>
     <string name="name">आपका नाम</string>
@@ -15,6 +12,22 @@
     <string name="password">पासवर्ड</string>
     <string name="temp">10°C</string>
     <string name="city">Jalandhar</string>
+    <string name="date">Sunday, May 13, 2020</string>
+
+    <string name="updates">कृषि समाचार</string>
+    <string name="agromarket">फसल का बाजार मूल्य</string>
+    <string name="kisankalyan">कृषि और किसान कल्याण मंत्रालय</string>
+    <string name="advisory">सलाहकार प्रणाली</string>
+    <string name="production">उत्पादन प्रणाली</string>
+
+    <string name="logout">लॉग आउट</string>
+    <string name="settings">सेटिंग्स</string>
+    <string name="about_us">हमारे बारे में</string>
+
+
+    <string name="call_text">विशेषज्ञों के साथ फ़ोन कॉल करें</string>
+    <string name="vcall_text">विशेषज्ञों के साथ वीडियो कॉल करें</string>
+    <string name="chat_text">विशेषज्ञों के साथ चैट करें</string>
 
     <string-array name="country_arrays">
         <item>देश चुनें</item>
